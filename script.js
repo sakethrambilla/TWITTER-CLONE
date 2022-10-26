@@ -18,6 +18,9 @@ const user = document.querySelector('.user');
 const sidebar = document.querySelector('.sidebar');
 const sidebarWrapper =document.querySelector('.sidebar-wrapper');
 const xBtn = document.querySelector(".sidebar-header i");
+const toggle =document.querySelector(".toggle");
+const circle =document.querySelector(".circle");
+
 
 /***************************************************/
 // Main Page
@@ -115,4 +118,19 @@ user.addEventListener('click', () =>{
 xBtn.addEventListener("click" , ()=>{
     sidebar.classList.remove("sidebar-display");
     sidebarWrapper.classList.remove("sidebar-wrapper-display");
-})
+});
+
+
+// dark mode;
+const darkElements1 = document.querySelectorAll('.dark-mode-1');
+const darkElements2 = document.querySelectorAll('.dark-mode-2');
+const lightTexts = document.querySelectorAll('.light-text');
+const borders = document.querySelectorAll('.border');
+toggle.addEventListener('click', () =>{ 
+    circle.classList.toggle('move');
+    Array.from(darkElements1).map(darkEl1 => darkEl1.classList.toggle('dark-1'));
+    Array.from(darkElements2).map(darkEl2 => darkEl2.classList.toggle('dark-2'));
+    Array.from(lightTexts).map((lightEl) => lightEl.classList.toggle('light'));
+    Array.from(borders).map((border) => border.classList.toggle('border-color'));
+   
+});
