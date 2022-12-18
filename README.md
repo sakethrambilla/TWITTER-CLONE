@@ -1,5 +1,5 @@
 # TWITTER-CLONE
-This is a basic responsive [Twitter](https://link-url-here.org) clone using
+This is a basic responsive [Twitter](https://indrarjun.github.io/TWITTER-CLONE/) clone using
 
 [![My Skills](https://skills.thijs.gg/icons?i=js,html,css)](https://skills.thijs.gg)
 
