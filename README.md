@@ -3,6 +3,8 @@ This is a basic responsive [Twitter](https://indrarjun.github.io/TWITTER-CLONE/)
 
 [![My Skills](https://skills.thijs.gg/icons?i=js,html,css)](https://skills.thijs.gg)
 
+It has a landing page, home page with dark theme and also a tweet pop-up option.
+
 ****
 ## Landing Page
 <img src='images/image_2022-12-18_121300853.png'>
